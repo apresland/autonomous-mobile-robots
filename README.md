@@ -1,5 +1,17 @@
 # Robotics Software Engineer Nanodegree
-This repository contains of projects completed for [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). The four month course covers robotics software engineering with a practical, system-focused approach to programming robots.
+This repository contains of projects completed for [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). 
+
+<table style="width:100%">
+  <tr>
+    <th>
+       <a href="https://user-images.githubusercontent.com/5468707/121535884-d8bde100-ca02-11eb-96a3-1981ffe1a6a7.png">
+       <img src="https://user-images.githubusercontent.com/5468707/121535884-d8bde100-ca02-11eb-96a3-1981ffe1a6a7.png"
+        width="250" height="140">
+  </tr>
+</table>
+
+
+The four month course covers robotics software engineering with a practical, system-focused approach to programming robots.
 
 The projects cover the following content:
 * Robotic environment simulation with Gazebo the common simulation engine used by Roboticists.
