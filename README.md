@@ -1,5 +1,5 @@
 # Robotics Software Engineer Nanodegree
-This repository contains of projects completed for [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). The four month course covers robotics software engineering with a practical, system-focused approach to programming robots using the [Robot Operating System (ROS)](https://www.ros.org/) framework, [Gazebo Robot Simulator](http://gazebosim.org/) and C++.
+This repository contains of projects completed for [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). The four month course covers robotics software engineering with a practical, system-focused approach to programming robots.
 
 The projects cover the following content:
 * Robotic environment simulation with Gazebo the common simulation engine used by Roboticists.
@@ -8,9 +8,11 @@ The projects cover the following content:
 * Mapping and SLAM implementation with ROS packages and C++.
 * Path Planning and Navigation with probabilistic algorithms implemented in C++.
 
-The Robot Operating System (ROS) is a set of software libraries and tools for building robot applications. It provides inter-process communications, a distributed parameter system and state-of-the-art algorithms (e.g. pose estimation, localization, navigation).
-
-Robot simulation is an essential tool in every robot development. A well-designed simulator makes it possible to rapidly test algorithms, design robots, perform regression testing, and train AI system using realistic scenarios. Gazebo offers the ability to accurately and efficiently simulate populations of robots in complex indoor and outdoor environments. Gazebo provides a robust physics engine, high-quality graphics, programmatic and graphical interfaces.
+The projects use the following technolgies:
+* [Robot Operating System (ROS)](https://www.ros.org/) is a set of software libraries and tools for building robot applications. It provides inter-process communications, a distributed parameter system and state-of-the-art algorithms (e.g. pose estimation, localization, navigation).
+* [Gazebo Robot Simulator](http://gazebosim.org/) is an essential tool for robot development making it possible to rapidly test algorithms, design robots, perform regression testing, and train AI system using realistic scenarios. Gazebo offers the ability to accurately and efficiently simulate populations of robots in complex indoor and outdoor environments. Gazebo provides a robust physics engine, high-quality graphics, programmatic and graphical interfaces.
+* [Unified Robot Description Format (URDF)](https://industrial-training-master.readthedocs.io/en/melodic/_source/session3/Intro-to-URDF.html) is an XML file format used in ROS to describe all elements of a robot in a code-independent, human-readable way. It allows things like collision checking and dynamic path planning.
+* [RViz](http://wiki.ros.org/rviz) is a 3D robot visualzer that can provide a view of your robot model, capture sensor information from robot sensors, and replay captured data. It can display data from camera, lasers, from 3D and 2D devices including pictures and point clouds.
 
 ## Project 1: Robotic Environment Simulation
 Use Gazebo to simulate a robotic environment comprised of a building containing household objects. Skills: Gazebo, C++ plugins.
