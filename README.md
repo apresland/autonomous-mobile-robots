@@ -1,7 +1,6 @@
 # Robotics Software Engineer Nanodegree
 This repository contains of projects completed for [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). 
 
-
 <table style="width:100%">
   <tr>
     <th>
@@ -13,7 +12,12 @@ This repository contains of projects completed for [Udacity Robotics Software En
        <a href="https://user-images.githubusercontent.com/5468707/123093583-26d3db00-d42c-11eb-96e1-9e387986c0db.gif">
        <img src="https://user-images.githubusercontent.com/5468707/123093583-26d3db00-d42c-11eb-96e1-9e387986c0db.gif"
         width="250" height="140">
-    </th>     
+    </th>
+    <th>
+       <a href="https://user-images.githubusercontent.com/5468707/123102365-44597280-d435-11eb-95c8-fc36e9becfb7.gif">
+       <img src="https://user-images.githubusercontent.com/5468707/123102365-44597280-d435-11eb-95c8-fc36e9becfb7.gif"
+        width="250" height="140">
+    </th>   
   </tr>
 </table>
 
