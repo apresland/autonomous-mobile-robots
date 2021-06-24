@@ -1,4 +1,4 @@
-# Robotics Software Engineer Nanodegree
+# Robotics Software Engineering with ROS2 and Gazebo
 This repository contains of projects completed for [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). 
 
 <table style="width:100%">
