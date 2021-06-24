@@ -4,3 +4,12 @@
 [submodule "P4_Mapping/src/teleop_twist_keyboard"]
 	path = P4_Mapping/src/teleop_twist_keyboard
 	url = https://github.com/ros-teleop/teleop_twist_keyboard
+[submodule "P5_Planning/src/slam_gmapping"]
+	path = P5_Planning/src/slam_gmapping
+	url = https://github.com/ros-perception/slam_gmapping
+[submodule "P3_Localization/src/pgm_map_creator"]
+	path = P3_Localization/src/pgm_map_creator
+	url = https://github.com/udacity/pgm_map_creator
+[submodule "P5_Planning/src/turtlebot_simulator"]
+	path = P5_Planning/src/turtlebot_simulator
+	url = https://github.com/turtlebot/turtlebot_simulator
