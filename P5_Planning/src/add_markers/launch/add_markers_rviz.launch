@@ -1,0 +1,4 @@
+<launch>
+    <arg name="rviz_config_file" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config_file)"/>
+</launch>
