@@ -13,6 +13,7 @@ $ sudo apt-get install ros-${ROS_DISTRO}-map-server
 $ sudo apt-get install ros-${ROS_DISTRO}-amcl
 $ sudo apt-get install ros-${ROS_DISTRO}-move-base
 $ sudo apt-get install ros-${ROS_DISTRO}-slam-gmapping
+$ sudo apt-get install ros-${ROS_DISTRO}-joystick-drivers
 $ pip install rospkg
 ```
 
