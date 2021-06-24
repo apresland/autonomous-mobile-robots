@@ -1,7 +1,6 @@
 # Perception
 
-![chaser](https://user-images.githubusercontent.com/5468707/123266805-a204c200-d4fc-11eb-8264-88d522720bd9.gif)
-
+<img src="https://user-images.githubusercontent.com/5468707/123266805-a204c200-d4fc-11eb-8264-88d522720bd9.gif" alt="alt text" width="500" height="333">
 
 ## Prerequisites
 This project requires ROS and Gazebo along with the gcc compiler
