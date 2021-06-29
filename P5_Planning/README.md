@@ -1,5 +1,8 @@
 # Planning
 
+![planning](https://user-images.githubusercontent.com/5468707/123806919-b1667f80-d8ef-11eb-8bb6-20c0bb219809.gif)
+
+
 ## Prerequisites
 1. ROS and Gazebo
 2. CMake & g++/gcc, C++11
