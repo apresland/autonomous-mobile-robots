@@ -1,6 +1,4 @@
-# Robotics Software Engineering (ROS2 / Gazebo / RTAB-Map)
-
-<img src="https://user-images.githubusercontent.com/5468707/123237278-d1f09d00-d4dd-11eb-988e-e08fea600b0b.png" alt="alt text" width="1000" height="300">
+# Robotics Software Engineering
 
 This repository contains of projects completed for [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). The four month course covers robotics software engineering with a practical, system-focused approach to programming robots. Projects cover simulation with Gazebo, modular and reusable architectures with ROS, Monte Carlo Localization, SLAM with RTAB-Map and path planning with probabilistic graphical methods.
 
@@ -22,8 +20,8 @@ This repository contains of projects completed for [Udacity Robotics Software En
         width="250" height="140">
     </th>
     <th>
-       <a href="https://user-images.githubusercontent.com/5468707/123237472-ff3d4b00-d4dd-11eb-87ff-c961687ef60b.png">
-       <img src="https://user-images.githubusercontent.com/5468707/123237472-ff3d4b00-d4dd-11eb-87ff-c961687ef60b.png"
+       <a href="https://user-images.githubusercontent.com/5468707/123806919-b1667f80-d8ef-11eb-8bb6-20c0bb219809.gif">
+       <img src="https://user-images.githubusercontent.com/5468707/123806919-b1667f80-d8ef-11eb-8bb6-20c0bb219809.gif"
         width="250" height="140">
     </th> 
   </tr>
@@ -41,6 +39,7 @@ The tech stack comprises:
 Use Gazebo to simulate a robotic environment comprised of a building containing household objects. Skills: Gazebo, C++ plugins.
 
 ## Module 2: Perception
+<img src="https://user-images.githubusercontent.com/5468707/123237278-d1f09d00-d4dd-11eb-988e-e08fea600b0b.png" alt="alt text" width="1000" height="300">
 Use Robot Operating System (ROS) to design a mobile robot. Then, house your newly-designed robot in the robotic environment you built in Project 1. You will program your robot with C++ to chase a ball through this world. Skills: catkin workspaces, ROS packages, ROS nodes, ROS launch files, RViz integration, and C++.
 
 ## Module 3: Localization
