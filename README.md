@@ -79,7 +79,18 @@ In this module we implement a basic version of the cycle using [ROS](plugins) pl
 Skills: catkin workspaces, ROS packages, ROS nodes, ROS launch files, RViz integration, and C++.
 
 ## 3: Localization
-Use the Monte Carlo Localization algorithm in ROS, in conjunction with sensor data and a map of the world, to estimate a mobile robot’s position and orientation. Skills: Localization algorithms: Kalman Filter and MCL, ROS parameters, ROS packages integration, C++.
+Use the [Adaptive Monte Carlo Localization (AMCL)](https://proceedings.neurips.cc/paper/2001/file/c5b2cebf15b205503560c4e8e6d1ea78-Paper.pdf) algorithm in ROS, in conjunction with sensor data and a map of the world, to estimate a mobile robot’s position and orientation.
+
+AMCL is a specific implementation of the particle filter algorithm. At the conceptual level it maintains a probability distribution over the set of all possible robot poses, and updates this distribution using data from odometry and range sensors. The probability densities are represented by sets of randomly generated samples taken in proportion to likelihood allowing particle filters to focus the computational resources on regions with high likelihood.
+
+The steps of the Particle Filter are:
+* __Re-sampling__: Draw a random sample with replacement from the sample set according to a distribution defined through importance weights. This sample can be seen as an instance of prior belief.
+* __Sampling__: Use the prior belief and the control inputs to sample from the distribution describing the robots dynamic system. The product of the obtained distribution the prior belief provides the proposal used in the next step.
+* __Importance sampling__: Weight each sample by the importance weight calculated as the likelihood of the sample given the measurements.
+
+AMCL provides a measure of goodness of fit of the distribution represented by weighted particles. It can then dynamically adapt the number of particles in the filter: when the robot’s pose is highly uncertain, the number of particles is increased; when the robot’s pose is well determined, the number of particles is decreased. This enables the robot to make a trade-off between processing speed and localization accuracy.
+
+Skills: Localization algorithms: Kalman Filter and MCL, ROS parameters, ROS packages integration, C++.
 
 ## 4: Mapping
 Create a automonous agent uses the Simultaneous Localisation and Mapping (SLAM) technique called RTAB-Map (Real-Time Appearance-Based Mapping) using a RGB-D Graph Based SLAM approach that uses incremental appearance based loop closure detection. Skills: Mapping and SLAM algorithms, Occupancy Grid Mapping, Grid-based FastSLAM and GraphSLAM, ROS debugging tools, C++.
